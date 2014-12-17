@@ -23,7 +23,7 @@
 		init: function(){
 			this.opts.file.bind('change',function(){
 			// 获得上传的第一个文件
-			this.readImg(this.file[0]);
+			this.readImg(this.opts.file[0]);
 			});
 		},
 		readImg: function(file){
